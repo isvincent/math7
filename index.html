@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>線性規劃｜互動學習網</title>
+  <meta name="description" content="選修數學乙（下）第 1 章 線性規劃：平行直線系、二元一次不等式、線性規劃的互動學習網，含學習指引、互動圖形、練習、測驗與學習歷程。">
+  <meta name="theme-color" content="#6c3cf0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236c3cf0'/%3E%3Cpolygon points='12,52 44,52 54,28 30,12 12,26' fill='%23ff5d73' opacity='.9'/%3E%3Cline x1='6' y1='60' x2='60' y2='6' stroke='%23ffd23f' stroke-width='5' stroke-dasharray='7 5'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="shell">
+    <div id="zoomer">
+      <header class="top">
+        <div class="bar">
+          <a class="brand" href="#home">
+            <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#6c3cf0"/><polygon points="12,52 44,52 54,28 30,12 12,26" fill="#ff5d73" opacity=".9"/><line x1="6" y1="60" x2="60" y2="6" stroke="#ffd23f" stroke-width="5" stroke-dasharray="7 5"/><circle cx="54" cy="28" r="5" fill="#fff"/></svg>
+            <div><h1 id="t-title">線性規劃</h1><small id="t-sub">選修數學乙（下）第 1 章　互動學習網</small></div>
+          </a>
+          <span class="sp"></span>
+          <span class="prog-mini" id="progmini"></span>
+          <button class="iconbtn" id="gear" aria-label="顯示與操作設定" title="⚙️ 顯示與操作設定">⚙️</button>
+        </div>
+        <nav class="tabs" id="tabs" aria-label="主選單"></nav>
+      </header>
+      <main id="main"></main>
+      <footer>📈 線性規劃 互動學習網 ・ 內容依據《選修數學乙（下）》第 1 章 ・ 學習紀錄僅儲存在本機瀏覽器</footer>
+    </div>
+  </div>
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="settings"></aside>
+  <div class="toast" id="toast" role="status"></div>
+  <canvas id="confetti"></canvas>
+  <script src="js/plot.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/viz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
